@@ -350,7 +350,9 @@ nav.links ul li a {
   }
 
   .menu-icon {
-    display: none;
+    display: block;
+    visibility: visible;
+    position: relative;
     font-size: 30px;
     cursor: pointer;
     text-align: right;
