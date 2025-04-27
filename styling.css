@@ -350,11 +350,11 @@ nav.links ul li a {
   }
 
   .menu-icon {
-    display: block;
+    display: none;
     font-size: 30px;
     cursor: pointer;
     text-align: right;
-    margin-right: 20px;
+    padding: 10px;
   }
 }
 
