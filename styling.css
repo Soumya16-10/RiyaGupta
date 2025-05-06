@@ -30,6 +30,7 @@ body {
 
 .logo-img {
   width: 80px;
+  aspect-ratio: 1/1;
   height: 80px;
   object-fit: contain;
   border-radius: 50%;
