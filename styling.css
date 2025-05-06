@@ -68,7 +68,6 @@ body {
   50% { border-color: transparent; }
 }
 
-  
 nav {
   margin-top: 1px;
   display: flex;
@@ -330,11 +329,31 @@ h2::after {
        font-size: 16px
  }
 }
-
-
-
-
 /* mobile friendly */
+
+
+/*for sideway scrolling */
+
+.scroll-container {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  width: 100vw;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+.scroll-page {
+  flex: none;
+  scroll-snap-align: start;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 
 
