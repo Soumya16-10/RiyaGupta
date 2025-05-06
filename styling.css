@@ -8,6 +8,24 @@ body {
   font-size: clamp(14px, 2vw, 18px);
 }
 
+
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.header-image {
+  width: 150px;
+  max-width: 80%;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
 .hero-section h1 {
     display: flex;
     justify-content: center;
