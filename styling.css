@@ -297,7 +297,7 @@ h2::after {
   text-decoration: none;
   margin: 15px auto;
   max-height: 70px;
-  width: 320px;
+  max-width: 320px;
   background-color: #ffffff;
   color: #0b0606;
   border-radius: 12px;
