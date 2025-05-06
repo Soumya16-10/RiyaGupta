@@ -26,6 +26,9 @@ body {
   position: absolute;
   top: 10px;
   left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color:  #c08fdc;
   padding: 0 10px
 }
