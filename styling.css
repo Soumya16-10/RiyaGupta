@@ -35,6 +35,7 @@ body {
 
 .logo-img {
   display: block;
+  flex-display: column;
   width: 80px;
   aspect-ratio: 1/1;
   height: 80px;
