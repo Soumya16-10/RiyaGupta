@@ -296,8 +296,8 @@ h2::after {
   justify-content: center;
   text-decoration: none;
   margin: 15px auto;
-  max-height: 70px;
-  width: 320px;
+  height: 70px;
+  max-width: 320px;
   padding: 20px;
   background-color: #ffffff;
   color: #0b0606;
