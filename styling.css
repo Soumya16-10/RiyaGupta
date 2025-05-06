@@ -24,8 +24,8 @@ body {
 
 /*logo  */
 .logo-container {
-  position: absolute;
-  padding: 20px;
+  display: flex;
+  padding: 10px 20px;
   top: 0px;
   left: 0px;
   background-color: #c08fdc;
