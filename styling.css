@@ -19,7 +19,7 @@ body {
 
 /*logo  */
 /* Logo strip with menu icon */
-.logo-strip {
+.logo-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
