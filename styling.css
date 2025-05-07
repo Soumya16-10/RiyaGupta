@@ -92,7 +92,7 @@ body {
   }
 
   #menulist li {
-    text-align: center; /* center align the menu items */
+    text-align: right; /* center align the menu items */
     padding: 5px 0; /* Add spacing between items */
   }
 
