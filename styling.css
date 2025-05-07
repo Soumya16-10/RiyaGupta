@@ -80,7 +80,7 @@ body {
     background-color: #333; /* Background color for the menu */
     position: absolute; /* Make it appear as a dropdown */
     top: 50px; /* Position below the menu icon */
-    right: 50px;
+    right: 30px;
     z-index: 999;
     padding: 10px 0; /* Add some padding */
     border-radius: 5px;
@@ -92,7 +92,7 @@ body {
   }
 
   #menulist li {
-    text-align: right; /* right align the menu items */
+    text-align: center; /* center align the menu items */
     padding: 5px 0; /* Add spacing between items */
   }
 
