@@ -64,7 +64,7 @@ body {
 }
 
 .menu-icon div {
-  width: 35px;
+  width: 50px;
   height: 5px;
   background-color: white; /* Match your theme */
   margin: 4px 0;
@@ -80,7 +80,7 @@ body {
     background-color: #333; /* Background color for the menu */
     position: absolute; /* Make it appear as a dropdown */
     top: 50px; /* Position below the menu icon */
-    right: 10px;
+    right: 50px;
     z-index: 999;
     padding: 10px 0; /* Add some padding */
     border-radius: 5px;
