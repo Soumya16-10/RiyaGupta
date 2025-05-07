@@ -64,8 +64,8 @@ body {
 }
 
 .menu-icon div {
-  width: 25px;
-  height: 3px;
+  width: 35px;
+  height: 5px;
   background-color: white; /* Match your theme */
   margin: 4px 0;
   transition: all 0.3s ease; /* Smooth animation for the icon */
@@ -80,9 +80,11 @@ body {
     background-color: #333; /* Background color for the menu */
     position: absolute; /* Make it appear as a dropdown */
     top: 50px; /* Position below the menu icon */
-    right: 0;
+    right: 10px;
     z-index: 999;
     padding: 10px 0; /* Add some padding */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   #menulist.active {
@@ -90,14 +92,20 @@ body {
   }
 
   #menulist li {
-    text-align: center; /* Center align the menu items */
-    padding: 10px 0; /* Add spacing between items */
+    text-align: right; /* right align the menu items */
+    padding: 5px 0; /* Add spacing between items */
   }
 
   #menulist li a {
     color: white; /* Match your theme */
     text-decoration: none; /* Remove underline */
-    font-size: 18px; /* Adjust font size */
+    font-size: 16px; /* Adjust font size */
+    padding: 5px 10px; /* Add padding around links */
+    display: block; /* Ensure links span the entire list item */
+  }
+ #menulist li a:hover {
+    background-color: #444; /* Add hover effect */
+    border-radius: 3px; /* Optional: Rounded corners on hover */
   }
 
   .menu-icon {
