@@ -65,7 +65,7 @@ body {
 
 .menu-icon div {
   width: 20px;
-  height: 5px;
+  height: 3px;
   background-color: white; /* Match your theme */
   margin: 6px 0;
   transition: all 0.3s ease; /* Smooth animation for the icon */
