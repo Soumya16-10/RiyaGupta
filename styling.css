@@ -51,36 +51,61 @@ body {
 
 
 /* Hamburger icon */
+
+/* Hamburger icon */
 .menu-icon {
-  display: none;
+  display: none; /* Hidden by default */
   flex-direction: column;
   cursor: pointer;
+  position: absolute; /* Ensure it can be positioned freely */
+  top: 10px; /* Adjust as needed for alignment */
+  right: 10px; /* Adjust as needed for alignment */
+  z-index: 1000; /* Ensure it stays above other elements */
 }
 
 .menu-icon div {
   width: 25px;
   height: 3px;
-  background-color: white;
+  background-color: white; /* Match your theme */
   margin: 4px 0;
+  transition: all 0.3s ease; /* Smooth animation for the icon */
 }
 
 /* Mobile styles */
 @media screen and (max-width: 768px) {
-  .nav-links {
-    display: none;
+  #menulist {
+    display: none; /* Hide nav links by default */
     flex-direction: column;
-    width: 100%;
-    background-color: #333;
+    width: 100%; /* Full width for mobile view */
+    background-color: #333; /* Background color for the menu */
+    position: absolute; /* Make it appear as a dropdown */
+    top: 50px; /* Position below the menu icon */
+    right: 0;
+    z-index: 999;
+    padding: 10px 0; /* Add some padding */
   }
 
-  .nav-links.active {
-    display: flex;
+  #menulist.active {
+    display: flex; /* Show nav links when active */
+  }
+
+  #menulist li {
+    text-align: center; /* Center align the menu items */
+    padding: 10px 0; /* Add spacing between items */
+  }
+
+  #menulist li a {
+    color: white; /* Match your theme */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Adjust font size */
   }
 
   .menu-icon {
-    display: flex;
+    display: flex; /* Show hamburger icon in mobile view */
   }
 }
+
+/*hanburger  */
 
 
 
