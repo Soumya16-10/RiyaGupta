@@ -59,7 +59,7 @@ body {
   cursor: pointer;
   position: absolute; /* Ensure it can be positioned freely */
   top: 10px; /* Adjust as needed for alignment */
-  right: 0px; /* Adjust as needed for alignment */
+  right: 10px; /* Adjust as needed for alignment */
   z-index: 1000; /* Ensure it stays above other elements */
 }
 
@@ -67,7 +67,7 @@ body {
   width: 25px;
   height: 3px;
   background-color: white; /* Match your theme */
-  margin: 6px 0;
+  margin: 4px 0;
   transition: all 0.3s ease; /* Smooth animation for the icon */
 }
 
@@ -100,7 +100,6 @@ body {
     color: white; /* Match your theme */
     text-decoration: none; /* Remove underline */
     font-size: 18px; /* Adjust font size */
-    display: block; /* Ensure links span the entire list item */
   }
  #menulist li a:hover {
     background-color: #444; /* Add hover effect */
